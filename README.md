@@ -3,8 +3,8 @@
 ## Motivation
 
    When cl-test-grid detects regressions in some library,
-   we sant to inform the library authors. Informing library
-   authors takes lot of manual work: google for the library home
+   we want to inform the library maintainers. Informing the maintainers
+   takes lot of manual work: google for the library home
    page, learn where its issue tracker or makling list is,
    send the message.
 
