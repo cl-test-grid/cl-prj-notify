@@ -25,7 +25,8 @@
       (optima:match (alexandria:read-file-into-string source-file)
         ((optima.ppcre:ppcre "git.*/github.com/(.*)/(.*).git" repo-owner repo)
          (push (list (pathname-project-name source-file)
-                     repo-owner repo)
+                     repo-owner
+                     repo)
                results))))
     (nreverse results)))
 
