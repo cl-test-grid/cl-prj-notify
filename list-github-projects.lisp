@@ -2,6 +2,10 @@
 ;;;; Copyright (C) 2013 Anton Vodonosov (avodonosov@yandex.ru)
 ;;;; See LICENSE for details.
 
+;;;; This script is used to fetch information about GitHub hosted CL projects
+;;;; from https://github.com/quicklisp/quicklisp-projects.
+;;;; This was done once and results are commited to github-projects.sexp
+
 (defpackage #:list-github-projects
   (:use :cl))
 
