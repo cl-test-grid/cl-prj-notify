@@ -28,7 +28,7 @@ We envision a function called like this:
  some-project has regressions on quicklisp 2013-12-13.
 
  See some-projects test results from the last two quickisp versions:
- http://common-lisp.net/project/cl-test-grid/library/gendl.html")
+ http://common-lisp.net/project/cl-test-grid/library/some-project.html")
 
    ```
 
