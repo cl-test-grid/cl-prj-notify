@@ -8,7 +8,7 @@
    page, learn where its issue tracker or maling list is,
    send the message.
 
-   As we constantly detect regressions in many libraries want to authomate this.
+   As we constantly detect regressions in many libraries we want to authomate this.
 
    Also, other CL community members have similar needs.
 
