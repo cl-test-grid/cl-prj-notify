@@ -19,11 +19,6 @@
 (defun pathname-project-name (pathname)
   (first (last (pathname-directory pathname))))
 
-;;; To fetch the database we did:
-;;;
-;;; git clone https://github.com/quicklisp/quicklisp-projects.git
-;;; (list-github-projects "github-projects/")
-
 (defun list-github-projects (quicklisp-projects-dir)
   (let ((results nil))
     (dolist (source-file (directory (merge-pathnames "**/source.txt" quicklisp-projects-dir)))
