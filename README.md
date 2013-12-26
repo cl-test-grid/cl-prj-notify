@@ -41,7 +41,7 @@ We envision a function called like this:
    If it's not possible to return a reference,
    returns T.
 
-   Signals an ERROR in case of problems.
+   Signals an `error` in case of problems.
 
 ## Status
 
