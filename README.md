@@ -53,7 +53,7 @@
 
 ## Usage
 
-   You need an GitHub Personal Access Tokens to create issues.
+   You need a GitHub Personal Access Token to submit issues.
    Create one at https://github.com/settings/applications
 
    ```common-lisp
