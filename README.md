@@ -5,7 +5,7 @@
    When cl-test-grid detects regressions in some library,
    we want to inform the library maintainers. Informing the maintainers
    takes lot of manual work: google for the library home
-   page, learn where its issue tracker or makling list is,
+   page, learn where its issue tracker or maling list is,
    send the message.
 
    As we constantly detect regressions in many libraries want to authomate this.
