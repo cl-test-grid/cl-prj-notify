@@ -17,7 +17,7 @@
      take some action.
    - just a notification message, maybe to mailing list or author email.
 
-   We envision a function called like this:
+We envision a function called like this:
    ```common-lisp
 
    (notify-project :prj-name "some-project"
