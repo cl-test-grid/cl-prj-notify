@@ -2,13 +2,13 @@
 
 ## Motivation
 
-   When cl-test-grid detects many regressions in some library,
+   When cl-test-grid detects regressions in some library,
    we sant to inform the library authors. Informing library
-   authors taks lot of manual work: google for the library home
-   page, learn where it's issue tracker or makling list,
+   authors takes lot of manual work: google for the library home
+   page, learn where its issue tracker or makling list is,
    send the message.
 
-   We want to authomate this.
+   As we constantly detect regressions in many libraries want to authomate this.
 
    Also, other CL community members have similar needs.
 
@@ -20,16 +20,15 @@
    We envision a function called like this:
    ```common-lisp
 
-   (cl-prj-notify:notify-project :prj-name "some-project"
-                                 :type :bug ;; or :message
-                                 :title "regressions on quicklisp 2013-12-13"
-                              :body
-                              "Hello.
+   (notify-project :prj-name "some-project"
+                   :type :bug ;; or :message
+                   :title "regressions on quicklisp 2013-12-13"
+                   :body "Hello.
 
-some-project has regressions on quicklisp 2013-12-13.
+ some-project has regressions on quicklisp 2013-12-13.
 
-See some-projects test results from the last two quickisp versions:
-http://common-lisp.net/project/cl-test-grid/library/gendl.html")
+ See some-projects test results from the last two quickisp versions:
+ http://common-lisp.net/project/cl-test-grid/library/gendl.html")
 
    ```
 
@@ -69,6 +68,6 @@ http://common-lisp.net/project/cl-test-grid/library/gendl.html")
                                  :title "unexpected error"
                                  :body
                                  "Hello.
-bla-bla-bla
-bla-bla-bla")
+ bla-bla-bla
+ bla-bla-bla")
    ```
