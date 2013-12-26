@@ -39,7 +39,7 @@ We envision a function called like this:
    or just an URI `"http://some/message.html"`.
 
    If it's not possible to return a reference,
-   returns T.
+   returns `t`.
 
    Signals an `error` in case of problems.
 
