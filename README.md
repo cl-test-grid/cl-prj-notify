@@ -61,7 +61,7 @@
             asdf:*central-registry* :test #'equal)
 
    (ql:quickload :cl-prj-notify)
-   (setf cl-prj-notify:*github-personal-token* "your-gihub-token-00000000000")
+   (setf cl-prj-notify:*github-personal-token* "your-github-token-00000000000")
 
    (cl-prj-notify:notify-project :prj-name "project-name"
                                  :type :bug
