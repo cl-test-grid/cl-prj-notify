@@ -14,8 +14,8 @@
 
    It looks like we need two types of notifications:
    - open bugs in issue trackers when we want library authros to 
-     take some action
-   - just a notification message, maybe to mailing list or author email
+     take some action.
+   - just a notification message, maybe to mailing list or author email.
 
    We envision a function called like this:
    ```common-lisp
