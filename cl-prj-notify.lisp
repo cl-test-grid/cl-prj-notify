@@ -78,7 +78,7 @@ PROJECT-NAME is a string, as Quicklisp uses."
     (let ((body (when (arrayp body-bytes) (babel:octets-to-string body-bytes))))
       (when (/= status-code 201)
         (error "Error creating github issue. HTTP response: ~A ~A~%~A~%~A" status-code reason-phrase headers body))
-      (assert body) ; if HTTP status is OK, then we expect body to be present
+      (assert body) ; if HTTP status is 201 Created, then we expect body to be present
       (let ((json-body (cl-json:decode-json-from-string body)))
         (list :github-issue :user repo-owner :repo repo :number (cdr (assoc :number json-body)))))))
 
