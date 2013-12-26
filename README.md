@@ -32,17 +32,16 @@ We envision a function called like this:
 
    ```
 
- => If possible, returns a reference to the notification submitted to the project.
-    Something like '(:launchpad-ticket 995657) for launchpad tickets,
-    or '(:github-issue :user "avodonosov" :repo "test" :number 160) for github issues,
-    or '(mail-archive "http://some/archive/item.html")
-    or just an URI "http://some/message.html"
+   If possible, returns a reference to the notification submitted to the project.
+   Something like `(:launchpad-ticket 995657)` for launchpad tickets,
+   or  `(:github-issue :user "avodonosov" :repo "test" :number 160)` for github issues,
+   or `(mail-archive "http://some/archive/item.html")`
+   or just an URI `"http://some/message.html"`.
 
-    If it's not possible to return a reference,
-    returns T.
+   If it's not possible to return a reference,
+   returns T.
 
-    Signals an ERROR in case of problems.
-
+   Signals an ERROR in case of problems.
 
 ## Status
 
